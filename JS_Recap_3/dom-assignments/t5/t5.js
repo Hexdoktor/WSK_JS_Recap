@@ -804,7 +804,7 @@ function runMap(userLat, userLon) {
 
     L.marker([lat, lon])
       .addTo(map)
-      .bindPopup(`<b>${r.name}</b><br>${r.address}`);
+      .bindPopup(`<h3>${r.name}</h3><p>${r.address}</p>`);
   });
 }
 console.log('About to request geolocation');
